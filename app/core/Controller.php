@@ -6,4 +6,10 @@ class Controller
     {
         include "../app/views/" . $view . '.php';
     }
+
+    public function model($model)
+    {
+        include "../app/models/" . $model . '.php';
+        return new $model;
+    }
 }
