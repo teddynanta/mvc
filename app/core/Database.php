@@ -30,7 +30,7 @@ class Database
         $this->state = $this->conn->prepare($query);
     }
 
-    public function bind($param, $value, $type = int)
+    public function bind($param, $value, $type = null)
     {
         if (is_null($type)) {
             switch (true) {
