@@ -16,5 +16,5 @@
             </tr>
         </tbody>
     </table>
-    <a class="btn btn-primary" href='<?= BASEURL; ?>/mahasiswa/index'>BACK</a>
+    <a class="btn btn-primary" href='<?= BASEURL; ?>/mahasiswa/index'>KEMBALI</a>
 </div>
